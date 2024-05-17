@@ -1,0 +1,14 @@
+../Core/Src/mpu6050.c:75:14:twos_complement_size_to_float	24	static
+../Core/Src/mpu6050.c:90:16:mpu_read_value_register	40	static
+../Core/Src/mpu6050.c:119:16:mpu_write_reg	40	static
+../Core/Src/mpu6050.c:138:9:MPUSetAccelSensitivity	16	static
+../Core/Src/mpu6050.c:155:9:MPUSetGyroSensitivity	16	static
+../Core/Src/mpu6050.c:171:9:MPUSetDataReadyInterruptEnable	16	static
+../Core/Src/mpu6050.c:182:9:MPUInit	24	static
+../Core/Src/mpu6050.c:203:9:MPUGetAccel	40	static
+../Core/Src/mpu6050.c:230:9:MPUGetGyro	40	static
+../Core/Src/mpu6050.c:261:6:HAL_I2C_MasterRxCpltCallback	16	static
+../Core/Src/mpu6050.c:267:6:MPUPostTransferCompleteCallback	16	static
+../Core/Src/mpu6050.c:272:6:MPURemoveTransferCompleteCallback	4	static
+../Core/Src/mpu6050.c:277:9:MPUGetDataInterrupt	64	dynamic
+../Core/Src/mpu6050.c:298:9:MPUTranslateData	16	static
